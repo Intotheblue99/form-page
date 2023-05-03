@@ -39,6 +39,14 @@
             <input type="password" id="pwd" name="user_password" aria-label="required">
             </li>
 
+            <li>
+                <label for="confirm-pwd">Confirm password: </label>
+                <span aria-label="required">*</span>
+                <input type="password" id="confirm-pwd" oninput="checkPasswords()">
+            </li>
+            
+            <p>already have an account? <a href="URL-link">Log in</a></p>
+
         </ul>
         <div class="description-form">
         <h2>Tell us about your interest!</h2>
@@ -70,6 +78,7 @@
     <img src="photos/couple-silhouette-16163318042gh.png"
      alt="a_couple_holding_hands by Annalise Batista"
     class="silhouette">
-    
+
+    <script src="javascript.js"></script>
 </body>
 </html>
