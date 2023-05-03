@@ -20,6 +20,17 @@
     margin-top: 80px;
 }
 
+label {
+    /* Uniform size & alignment */
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+  }
+
+  ul {
+    list-style: none;
+  }
+
 form {
     border: 2px solid black;
     border-radius: 4px;
